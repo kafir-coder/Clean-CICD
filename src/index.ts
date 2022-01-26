@@ -13,6 +13,7 @@ async function run(): Promise<void> {
   console.log('DB Mongo connected')
   const app = await StartProjectInit.create(AppContainer);
    app.use(helmet());
+   console.log(PORT)
    await app.listen(PORT, () => console.log('Running on port: ' + PORT))
 }
 
