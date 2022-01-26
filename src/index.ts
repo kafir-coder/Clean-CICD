@@ -15,4 +15,5 @@ async function run(): Promise<void> {
    await app.listen(PORT, () => console.log('Running on port: ' + PORT))
 }
 
+console.log("ola mundo")
 run();
