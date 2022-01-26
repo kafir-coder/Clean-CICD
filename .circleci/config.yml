@@ -16,7 +16,7 @@ jobs:
       - checkout
       - run:
           name: "Install Packages"
-          command: "npm run install"
+          command: "npm install"
       - run: 
           name: "Build the project"
           command: "npm run build"
